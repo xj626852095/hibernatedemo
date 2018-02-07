@@ -23,7 +23,6 @@ public class App1Simple {
         Transaction t = session.beginTransaction();
 
         Employee e1 = new Employee();
-        e1.setId(100);
         e1.setFirstName("Max");
         e1.setLastName("Su");
 
